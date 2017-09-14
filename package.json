@@ -1,0 +1,42 @@
+{
+    "author": "grill.dylan@gmail.com",
+    "dependencies": {
+        "pebble-clay": "^1.0.2",
+        "pebblejs": "^1.0.0"
+    },
+    "keywords": [],
+    "name": "coinmarket",
+    "pebble": {
+        "capabilities": [
+            "configurable"
+        ],
+        "displayName": "CoinMarket ",
+        "enableMultiJS": true,
+        "messageKeys": [
+            "Currency"
+        ],
+        "projectType": "native",
+        "resources": {
+            "media": [
+                {
+                    "file": "images/coinmarket_logo",
+                    "menuIcon": true,
+                    "name": "coinmarket_logo",
+                    "targetPlatforms": null,
+                    "type": "png"
+                }
+            ]
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "aplite",
+            "basalt",
+            "diorite"
+        ],
+        "uuid": "236ebe7b-3f7c-46ec-adda-f4701c892a0c",
+        "watchapp": {
+            "watchface": false
+        }
+    },
+    "version": "1.0.0"
+}
